@@ -1,4 +1,4 @@
-## NodeJS Repos
+## :star: NodeJS Repos :sunglasses:
 
 > Welcome to this NodeJS Repositories. This repo contains all NodeJS projects I have created and wanted to share it for anybody who wanted to use, copy, improve any of the following codes. If you wanted to contribute to this project, you may do so by [create an issue here](https://github.com/Aimanski12/book-worm/issues/new).
 
@@ -15,14 +15,14 @@
 </details>
 
 
-## Contributing
+## Contributing :star:
 
 If you find bugs with this project, pull requests are always welcome. You can [create an issue here](https://github.com/Aimanski12/NodeJS-Repo/issues/new).
 Your :sparkles: are also greatly appreciated.
 
 [View other projects](https://github.com/Aimanski12/web_dev_projects)
 
-## Author
+## Author :sunglasses:
 
 [Aimanski](http://bit.ly/aiman-profile-github).
 
