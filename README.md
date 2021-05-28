@@ -20,7 +20,9 @@
 If you find bugs with this project, pull requests are always welcome. You can [create an issue here](https://github.com/Aimanski12/NodeJS-Repo/issues/new).
 Your :sparkles: are also greatly appreciated.
 
-[View other projects](https://github.com/Aimanski12/web_dev_projects)
+[View WebDev projects](https://github.com/Aimanski12/web_dev_projects)
+
+[View Javascript projects](https://github.com/Aimanski12/Javascript_Projects)
 
 ## Author :sunglasses:
 

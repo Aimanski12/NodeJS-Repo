@@ -5,10 +5,10 @@
 
 ## Contributing :star:
 
-If you find bugs with this project, pull requests are always welcome. You can [create an issue here](https://github.com/Aimanski12/book-worm/issues/new).
+If you find bugs with this project, pull requests are always welcome. You can [create an issue here](https://github.com/Aimanski12/NodeJS-Repo/issues/new).
 Your :sparkles: are also greatly appreciated.
 
-[View other projects](https://github.com/Aimanski12/web_dev_projects)
+[View WebDev projects](https://github.com/Aimanski12/web_dev_projects)
 
 ## Author :sunglasses:
 
