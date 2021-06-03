@@ -10,6 +10,8 @@ Your :sparkles: are also greatly appreciated.
 
 [View WebDev projects](https://github.com/Aimanski12/web_dev_projects)
 
+[View Javascript projects](https://github.com/Aimanski12/Javascript_Projects)
+
 ## Author :sunglasses:
 
 [Aimanski](http://bit.ly/aiman-profile-github).

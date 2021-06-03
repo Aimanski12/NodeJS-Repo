@@ -4,6 +4,24 @@
 
 > To download the repos, open the file folder, and go to the project you want to copy and then click on the clone icon to get the link. 
 
+<details>
+  <summary><strong>03. Basic MERN Stack Application<strong></summary>
+  
+  ### OverView 
+  
+  > If you need a basic MERN stack application, you can download this repo. It has a basic routes setup with JWT Authentication for some guarded routes. It also has included backend NodeJS setup with MongoDB.
+  <br>
+</details>
+
+<details>
+  <summary><strong>02. Basic NodeJS Routing Template<strong></summary>
+  
+  ### OverView 
+  
+  > This repo contains a basic setup for nodejs routing template which includes JWT authentication to guarded routes. It also includes mongoose data models for a basic data structure setup.
+  <br>
+</details>
+
 
 <details>
   <summary><strong>01. Router Templates<strong></summary>
