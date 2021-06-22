@@ -5,6 +5,15 @@
 > To download the repos, open the file folder, and go to the project you want to copy and then click on the clone icon to get the link. 
 
 <details>
+  <summary><strong>04. NextJS with Firebase<strong></summary>
+  
+  ### OverView 
+  
+  > Coming soon
+  <br>
+</details>
+
+<details>
   <summary><strong>03. Basic MERN Stack Application<strong></summary>
   
   ### OverView 
