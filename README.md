@@ -9,7 +9,7 @@
   
   ### OverView 
   
-  > Coming soon
+  > This application is a complete NextJS app with Firebase as its cloud server. It uses firebase cloud functions, firebase storage, firebase firestore to save data, multimedia files. The app also uses firebase authentication which encapsulates the app for easy validation.
   <br>
 </details>
 
