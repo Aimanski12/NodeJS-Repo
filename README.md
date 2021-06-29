@@ -5,6 +5,20 @@
 > To download the repos, open the file folder, and go to the project you want to copy and then click on the clone icon to get the link. 
 
 <details>
+  <summary><strong>05. ReactJS with Firestore basic setup.<strong></summary>
+  
+  ### OverView 
+  
+  > This is a basic application that allows users to visit the website and browse posts from users. The visitor needs to get signin (aunthentication) for them to posts items and view all posts from all users.
+
+  > The app uses ReactJs as its frontend with Materialize as the CSS Framework. It also uses Firebase Authentication, to verify users if they have accounts. It also uses Firestore to save create, delete, and update data. It also uses Firebase Cloud Functions to and hosting. 
+
+  > You can visit the website [here](https://app02-27372.web.app/).
+  
+  <br>
+</details>
+
+<details>
   <summary><strong>04. NextJS with Firebase<strong></summary>
   
   ### OverView 

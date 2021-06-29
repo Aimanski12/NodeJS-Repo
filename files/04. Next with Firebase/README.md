@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<details>
+  <summary><strong>05. ReactJS with Firestore basic setup.<strong></summary>
+  
+  ### OverView 
+  
+  > This is a basic application that allows users to visit the website and browse posts from users. The visitor needs to get signin (aunthentication) for them to posts items and view all posts from all users.
 
-## Getting Started
+  > The app uses ReactJs as its frontend with Materialize as the CSS Framework. It also uses Firebase Authentication, to verify users if they have accounts. It also uses Firestore to save create, delete, and update data. It also uses Firebase Cloud Functions to and hosting. 
 
-First, run the development server:
+  > You can visit the website [here](https://app02-27372.web.app/).
+  
+  <br>
+</details>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Contributing :star:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you find bugs with this project, pull requests are always welcome. You can [create an issue here](https://github.com/Aimanski12/NodeJS-Repo/issues/new).
+Your :sparkles: are also greatly appreciated.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+[View WebDev projects](https://github.com/Aimanski12/web_dev_projects)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[View Javascript projects](https://github.com/Aimanski12/Javascript_Projects)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Author :sunglasses:
 
-## Learn More
+[Aimanski](http://bit.ly/aiman-profile-github).
 
-To learn more about Next.js, take a look at the following resources:
+## License 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Copyright © 2019, [Aimanski12](http://bit.ly/aiman-profile-github).
+Released under the [MIT License](LICENSE).
