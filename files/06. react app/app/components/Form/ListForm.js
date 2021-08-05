@@ -12,7 +12,6 @@ const validationSchema = Yup.object().shape({
 });
 
 function ListForm({ initialVal, onSubmit, clearForm = false }) {
-  // console.log(initialVal);
   return (
     <Form
       initialValues={{

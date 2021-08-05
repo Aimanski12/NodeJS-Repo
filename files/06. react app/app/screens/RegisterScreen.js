@@ -11,7 +11,7 @@ import Logo from "../components/Logo";
 import ScreenWrapper from "../components/ScreenWrapper";
 import SubmitButton from "../components/Form/SubmitButton";
 
-import userContext from "../auth/appContext";
+import authApi from "../auth/authApi";
 
 const validationSchema = Yup.object().shape({
   name: Yup.string().required().label("Name"),
@@ -20,14 +20,14 @@ const validationSchema = Yup.object().shape({
 });
 
 function RegisterScreen() {
-  const { register } = userContext();
+  const { register } = authApi();
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = (userInfo) => {
-    console.log(userInfo);
+    // console.log(userInfo);
     setLoading(true);
     Keyboard.dismiss();
-    register();
+    register(userInfo);
   };
 
   return (

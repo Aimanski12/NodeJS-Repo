@@ -1,47 +1,36 @@
-import React, { useRef } from "react";
+import React from "react";
 import { View, TouchableHighlight } from "react-native";
 import { Swipeable } from "react-native-gesture-handler";
 
 import { colors } from "../../config/colors";
-import Date from "./Date";
+import RightSection from "./RightSection";
 import Icon from "./Icon";
 import ListItem from "./ListItem";
 import { listStyleWrapper } from "../../config/styles";
 
 function GroupLists({
-  date,
-  icon,
+  item,
+  btnType,
   numberOfLines = 1,
-  urgency,
-  listname,
   onPress,
   renderRightActions,
-
   row,
   index,
   closeRow,
 }) {
-  // const swipeRef = useRef();
-  // const closeSwipeable = () => {
-  //   swipeRef?.current?.close();
-  // };
-
   return (
     <Swipeable
       ref={(ref) => (row[index] = ref)}
       friction={2}
+      key={item.id}
       renderRightActions={renderRightActions}
       onSwipeableOpen={() => closeRow(index)}
     >
       <TouchableHighlight underlayColor={colors.orangeTapBkg} onPress={onPress}>
         <View style={{ ...listStyleWrapper }}>
-          <Icon icon={icon} />
-          <ListItem
-            listname={listname}
-            urgency={urgency}
-            numberOfLines={numberOfLines}
-          />
-          <Date date={date} />
+          <Icon btnType={btnType} isFinished={item.isFinished} />
+          <ListItem item={item} numberOfLines={numberOfLines} />
+          <RightSection item={item} btnType={btnType} />
         </View>
       </TouchableHighlight>
     </Swipeable>

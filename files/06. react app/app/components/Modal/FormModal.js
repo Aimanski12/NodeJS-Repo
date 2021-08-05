@@ -6,12 +6,18 @@ import NewListFormHeader from "../Form/NewListFormHeader";
 import ScreenWrapper from "../ScreenWrapper";
 import { colors } from "../../config/colors";
 
-function FormModal({ initialVal, modalVisible, onPressModalBtn, onSubmit }) {
+function FormModal({
+  title = false,
+  initialVal,
+  modalVisible,
+  onPressModalBtn,
+  onSubmit,
+}) {
   return (
     <Modal visible={modalVisible} animationType="slide">
       <ScreenWrapper style={styles.container}>
         <NewListFormHeader
-          title={"Select importance level"}
+          title={title ? title : "Select importance levellll"}
           withIcon={true}
           onPressModalBtn={onPressModalBtn}
         />

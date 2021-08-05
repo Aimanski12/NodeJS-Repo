@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { FlatList } from "react-native";
 import GroupList from "./GroupList";
 import ListItemActionButtons from "../ListActionButton";
@@ -6,7 +6,6 @@ import ListItemActionButtons from "../ListActionButton";
 function Lists({ btnType, data, onPress, onPressActionBtn }) {
   let row = [];
   let prevOpenedRow;
-
   const closeRow = (index) => {
     if (prevOpenedRow && prevOpenedRow !== row[index]) {
       prevOpenedRow.close();
@@ -20,20 +19,15 @@ function Lists({ btnType, data, onPress, onPressActionBtn }) {
       keyExtractor={(item) => item.id.toString()}
       renderItem={({ item, index }) => (
         <GroupList
-          date={item.createdAt}
-          urgency={item.urgency}
-          icon={
-            btnType === "main"
-              ? "check-outline"
-              : item.status
-              ? "check-outline"
-              : "circle-outline"
-          }
-          listname={item.listname}
+          item={item}
+          btnType={btnType}
           onPress={() => onPress(item)}
           renderRightActions={() => (
             <ListItemActionButtons
-              onPress={(action) => onPressActionBtn(action, item)}
+              onPress={(action) => {
+                closeRow(-1);
+                onPressActionBtn(action, item);
+              }}
               type={btnType}
             />
           )}

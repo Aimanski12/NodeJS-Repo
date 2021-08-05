@@ -11,17 +11,21 @@ import Logo from "../components/Logo";
 import ScreenWrapper from "../components/ScreenWrapper";
 import SubmitButton from "../components/Form/SubmitButton";
 
+import authApi from "../auth/authApi";
+
 const validationSchema = Yup.object().shape({
   email: Yup.string().required().email().label("Email"),
   password: Yup.string().required().min(6).label("Password"),
 });
 
 function LoginScreen() {
+  const { logIn } = authApi();
   const [loading, setLoading] = useState(false);
   const handleSubmit = (userInfo) => {
-    console.log(userInfo);
+    // console.log(userInfo);
     setLoading(true);
     Keyboard.dismiss();
+    logIn(userInfo);
   };
   return (
     <ScreenWrapper style={styles.container}>

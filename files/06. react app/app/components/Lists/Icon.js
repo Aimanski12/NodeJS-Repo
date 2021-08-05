@@ -4,7 +4,14 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import { colors } from "../../config/colors";
 
-function Icon({ icon }) {
+function Icon({ btnType, isFinished }) {
+  const icon =
+    btnType === "main"
+      ? "mail"
+      : isFinished
+      ? "check-outline"
+      : "circle-outline";
+
   return (
     <View style={styles.container}>
       <MaterialCommunityIcons name={icon} size={17} color={colors.gray} />

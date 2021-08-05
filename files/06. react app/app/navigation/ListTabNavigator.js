@@ -5,17 +5,12 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import { colors } from "../config/colors";
 import CreateListScreen from "../screens/CreateListScreen";
+import DiscardedScreen from "../screens/DiscardedScreen";
 import ListStackNavigator from "./ListStackNavigator";
 import NewListButton from "./NewListButton";
 import routes from "./routes";
 
 const Tab = createBottomTabNavigator();
-
-const Discarded = () => (
-  <View>
-    <Text>Discarded Screen</Text>
-  </View>
-);
 
 const ListNavigator = () => (
   <Tab.Navigator
@@ -48,7 +43,7 @@ const ListNavigator = () => (
     />
     <Tab.Screen
       name="Discarded"
-      component={Discarded}
+      component={DiscardedScreen}
       options={{
         tabBarIcon: ({ color }) => (
           <MaterialCommunityIcons
