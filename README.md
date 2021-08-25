@@ -2,7 +2,19 @@
 
 > Welcome to this NodeJS Repositories. This repo contains all NodeJS projects I have created and wanted to share it for anybody who wanted to use, copy, improve any of the following codes. If you wanted to contribute to this project, you may do so by [create an issue here](https://github.com/Aimanski12/book-worm/issues/new).
 
-> To download the repos, open the file folder, and go to the project you want to copy and then click on the clone icon to get the link. 
+> To download the repos, open the file folder, and go to the project you want to copy and then click on the clone icon to get the link.
+
+<details>
+  <summary><strong>06. List It App.<strong></summary>
+  
+  ### OverView 
+  
+  > This is a React Native Application that is designed for recording your daily todos. One feature this app has is that it has the ability to save your previous todos without losing any data.
+  
+  > This app is published in google play and is available for android phones.
+  
+  <br>
+</details>
 
 <details>
   <summary><strong>05. ReactJS with Firestore basic setup.<strong></summary>
@@ -11,10 +23,10 @@
   
   > This is a basic application that allows users to visit the website and browse posts from users. The visitor needs to get signin (aunthentication) for them to posts items and view all posts from all users.
 
-  > The app uses ReactJs as its frontend with Materialize as the CSS Framework. It also uses Firebase Authentication, to verify users if they have accounts. It also uses Firestore to save create, delete, and update data. It also uses Firebase Cloud Functions to and hosting. 
+> The app uses ReactJs as its frontend with Materialize as the CSS Framework. It also uses Firebase Authentication, to verify users if they have accounts. It also uses Firestore to save create, delete, and update data. It also uses Firebase Cloud Functions to and hosting.
 
-  > You can visit the website [here](https://app02-27372.web.app/).
-  
+> You can visit the website [here](https://app02-27372.web.app/).
+
   <br>
 </details>
 
@@ -45,7 +57,6 @@
   <br>
 </details>
 
-
 <details>
   <summary><strong>01. Router Templates<strong></summary>
   
@@ -54,7 +65,6 @@
   > This repos contains a basic nodejs boilerplate which includes routing, uploading files, and basic heroku setup.
   <br>
 </details>
-
 
 ## Contributing :star:
 
@@ -69,7 +79,7 @@ Your :sparkles: are also greatly appreciated.
 
 [Aimanski](http://bit.ly/aiman-profile-github).
 
-## License 
+## License
 
 Copyright © 2019, [Aimanski12](http://bit.ly/aiman-profile-github).
 Released under the [MIT License](LICENSE).
