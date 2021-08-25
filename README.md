@@ -7,12 +7,16 @@
 <details>
   <summary><strong>06. List It App.<strong></summary>
   
-  ### OverView 
-  
-  > This is a React Native Application that is designed for recording your daily todos. One feature this app has is that it has the ability to save your previous todos without losing any data.
-  
-  > This app is published in google play and is available for android phones.
-  
+  ### OverView :sunglasses:
+
+> List-It is a mobile app for android that is design for recording your daily todos. It has an added feature of saving todos and allows you to retrieve all past todos that are both done and not. You can also put back old todos and put them in the present
+
+  <div float="left">
+      <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/Banner.png" alt="screen shot">
+  </div>
+
+[View Project Detail](https://github.com/Aimanski12/NodeJS-Repo/tree/main/files/07.%20list-it)
+
   <br>
 </details>
 
