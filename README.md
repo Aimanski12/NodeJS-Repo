@@ -14,6 +14,8 @@
   <div float="left">
       <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/Banner.png" alt="screen shot">
   </div>
+  
+<br><br>
 
 [View Project Detail](https://github.com/Aimanski12/NodeJS-Repo/tree/main/files/07.%20list-it)
 
