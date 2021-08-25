@@ -8,6 +8,10 @@ List-It is a mobile app for android that is design for recording your daily todo
       <img src="https://github.com/Aimanski12/proj-resource/blob/master/libs/Banner.png" alt="screen shot">
   </div>
 
+Your :star: is highly appreciated!
+
+[View other projects](https://github.com/Aimanski12/web_dev_projects)
+
 ## Author
 
 [Aimanski12](https://github.com/Aimanski12).
